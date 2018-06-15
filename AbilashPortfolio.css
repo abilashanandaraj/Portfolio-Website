@@ -1,0 +1,101 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.headerBG-imgAA {
+    background-image: url("center-image.jpg");
+    height: 70%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dev-logoAA {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dev-nameAA {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 80px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dev-btnAA {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.listed-projectsAA {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ft-work-titleAA {
+    color: #999999;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.works-resp-marginAA {
+    margin: 10px auto;
+}
+
+.work-cta-AA {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.CTA-bg-AA {
+    background-color: #dc3545;
+    padding: 30px;
+}
+
+.contact-formAA {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .dev-nameAA {
+        color: #ffffff;
+        font-size: 2.2em;
+        text-align: center;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .dev-nameAA {
+        color: #ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
